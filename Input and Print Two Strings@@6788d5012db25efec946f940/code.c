@@ -5,7 +5,7 @@ int main(){
     scanf("%c", &a);
     scanf("%c", &b);
 
-    print("You entered: %c", a);
-    print("and %c", b)
+    print("You entered: %c and", a);
+    print("%c", b)
     return 0;
 }
