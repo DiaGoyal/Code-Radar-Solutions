@@ -1,10 +1,9 @@
 int main(){
-    int num, i=1;
+    int num, i;
     scanf("%d", &num);
-    while(i<=num)
+    wfor(i=1;i<=num;i++)
     {
-        printf("%d",i);
-        i++;
+        printf("%d\n",i);
     }
     
     return 0;
