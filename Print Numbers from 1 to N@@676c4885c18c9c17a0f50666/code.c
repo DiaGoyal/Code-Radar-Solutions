@@ -1,5 +1,5 @@
 int main(){
-    int num, i, sum=0;
+    int num, i=1;
     scanf("%d", &num);
     while(i<=num)
     {
