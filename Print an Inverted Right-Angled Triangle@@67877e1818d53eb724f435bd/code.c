@@ -1,5 +1,6 @@
 #include<stdio.h>
-int main(
+int main()
+{
     int n,i,j;
     printf("");
     scanf("%d",&n);
@@ -12,4 +13,4 @@ int main(
         printf("\n");
     }
     return ;
-)
+}
