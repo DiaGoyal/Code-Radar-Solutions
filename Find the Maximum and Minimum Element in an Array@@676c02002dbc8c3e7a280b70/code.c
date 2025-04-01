@@ -1,5 +1,5 @@
 #include<stdio.h>
-int findMaxMin(int arr[],int n,int *max, int *min){
+void findMaxMin(int arr[],int n,int *max, int *min){
     *max = arr[0];
     *min = arr[0];
 
@@ -19,7 +19,7 @@ int main (){
     for(int i=0; i<n; i ++)
         scanf("%d", &arr[i]);
 
-    int *max, *min ;
+    int max, min ;
     findMaxMin(arr, n, max, min);
     printf("%d %d",max,min);
 
