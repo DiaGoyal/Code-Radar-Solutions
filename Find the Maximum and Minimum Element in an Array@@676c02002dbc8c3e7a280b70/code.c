@@ -16,6 +16,7 @@ int main (){
     scanf("%d", &n);
 
     int arr[n];
+    int i;
     scanf("%d", &arr[i]);
 
     int *max, *min ;
