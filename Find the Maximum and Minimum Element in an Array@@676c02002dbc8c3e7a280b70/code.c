@@ -20,8 +20,8 @@ int main (){
         scanf("%d", &arr[i]);
 
     int max, min ;
-    findMaxMin(arr, n, max, min);
-    printf("%d",max);
+    findMaxMin(arr, n, &max, &min);
+    printf("%d \n",max);
     printf("%d", min);
 
     return 0;
