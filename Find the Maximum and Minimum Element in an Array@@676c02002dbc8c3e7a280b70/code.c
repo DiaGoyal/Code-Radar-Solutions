@@ -16,11 +16,11 @@ int main (){
     scanf("%d", &n);
 
     int arr[n];
-    scanf("%d", &arr[n]);
+    scanf("%d", &arr[i]);
 
     int *max, *min ;
     findMaxMin(arr, n, max, min);
-    printf("%d",max,min);
+    printf("%d %d",max,min);
 
     return 0;
 }
