@@ -18,7 +18,7 @@ int main (){
     int arr[n];
     scanf("%d", &arr[n]);
 
-    printf("%d", findMaxMin[n]);
+    printf("%d", findMaxMin(n));
 
     return 0;
 }
